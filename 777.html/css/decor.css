@@ -1,0 +1,291 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 1310px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar_words{
+    display: flex;
+}
+.navbar_word {
+    display: flex;
+    justify-content: space-between;
+    gap: 55px;
+    cursor: pointer;
+}
+.navbar_fish {
+    padding-right: 12px;
+}
+.navbar_word_1 {
+    font-family: FuturaPT, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20.51px;
+    color: #333333;
+    list-style: none;
+    cursor: pointer;
+}
+@font-face {
+    font-family: FuturaPT, sans-serif;
+    src: url(../fonts/FuturaPT/FuturaPT-Light.ttf);
+}
+.box_main_word {
+    font-family: FuturaPT, sans-serif;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 64px;
+    width: 608px;
+    color: #333333;
+}
+.box_word {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.box {
+    display: flex;
+}
+.box_main_word_1 {
+    color: #78C0DE;
+}
+.box_paragraph {
+    width: 495px;
+    font-family: FuturaPT, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #949494;
+    padding-top: 29px;
+}
+.box_button {
+    width: 181px;
+    border-radius: 3px;
+    height: 50px;
+    font-family: FuturaPT, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20.51px;
+    color: #FFFFFF;
+    text-align: center;
+    background-color: #333333;
+    margin-top: 38px;
+    cursor: pointer;
+}
+.box_photo {
+    width: 350px;
+    height: 430px;
+    align-self: flex-end;
+    column-gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.main_block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.main_block_word {
+    width: 650px;
+    text-align: center;
+    font-family: FuturaPT, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25.64px;
+    color: #949494;
+    padding-top: 60px;
+}
+.main_block_image {
+    display: flex;
+    align-self: start;
+}
+.main_block_image_2 {
+    display: flex;
+    align-self: flex-end;
+}
+.main_block_word_last {
+    font-family: FuturaPT, sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25.64px;
+    color: #333333;
+    padding-top: 70px;
+}
+.section_block_word {
+    font-family: FuturaPT, sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 54px;
+    color: #333333;
+    margin-left: 572px;
+    margin-top: 182px;
+}
+.section_block_card_word {
+    font-family: FuturaPT, sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #333333;
+    width: 126px;
+    padding-top: 22px;
+}
+.section_block_card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 110px;
+    margin-left: 44px;
+    width: 193px;
+    height: 170px;
+    background-color: #FFFFFF;
+}
+.section_block_card_image {
+    width: 54px;
+    height: 77.45px;
+    padding-top: 30px;
+}
+
+.section_block_cards {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.section_block_extra {
+    width: 1223px;
+    height: 414px;
+    display: flex;
+    margin-top: 14px;
+}
+.section_block_extra_image {
+    width: 524px;
+    height: 329px;
+    margin-left:  144px;
+    margin-top: 42px;
+}
+
+.section_block_extra_word {
+    margin-top: 74px;
+    margin-left: 67px;
+}
+.section_block_extra_word_main {
+    font-family: FuturaPT, sans-serif; 
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 20px;
+    color: #333333;
+}
+.section_block_extra_word_paragraph {
+    font-family: FuturaPT, sans-serif; 
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #949494;
+    padding-top: 18px;
+    width: 555px;
+}
+.section_block_extra_word_par {
+    font-family: FuturaPT, sans-serif; 
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #949494;
+    padding-top: 9px;
+}
+.section_block_extra_word_btn {
+    font-family: FuturaPT, sans-serif; 
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20.51px;
+    color: #FFFFFF;
+    background-color: #eae20b;
+    width: 185px;
+    height: 50px;
+    border-radius: 3px;
+    margin-top: 34px;
+    cursor: pointer;
+}
+.section_block_extra_word_btn:hover {
+    background-color: #FFBD54;
+    transition: 0.6s;
+}
+.section_block_extra_word_button {
+    font-family: FuturaPT, sans-serif; 
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20.51px;
+    color: #FFFFFF;
+    background-color: #eae20b;
+    width: 185px;
+    height: 50px;
+    border-radius: 3px;
+    margin-left: 21px;
+    cursor: pointer;
+}
+.section_block_extra_word_button:hover {
+    background-color: #333333;
+    transition: 0.6s;
+}
+.article_box_image {
+    width: 1500px;
+    min-width: 100%;
+    background-image: url(../images/Mask\ Group\ \(1\).png);
+    width: 1440px;
+    min-width: 100%;
+    border-radius: 5px;
+    height: 308px;
+    align-items: center;
+    display: flex;
+}
+.article_box_main_word {
+    font-family: FuturaPT, sans-serif; 
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 20px;
+    color: #FFFFFF;
+    padding-left: 287px;
+}
+.article_box_textblock {
+    width: 387px;
+    height: 50px;
+    margin-top: 35px;
+    margin-left: 287px; 
+}
+.article_box_btn {
+    font-family: FuturaPT, sans-serif; 
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20.51px;
+    color: #FFFFFF;
+    width: 188px;
+    height: 50px;
+    border-radius: 3px;
+    background-color: black;
+    cursor: pointer;
+    margin-top: 34px;
+    margin-left: 21px;
+}
+.article_box_btn:hover {
+    background-color: #333333;
+}
+.article_box_textbox {
+    display: flex;
+}
+.article_box_photo {
+    width: 500px;
+    display: inline-block;
+    padding-right:10px;
+    width: 546px;
+}
+.article_box_word {
+    margin-bottom: 30px;
+}
